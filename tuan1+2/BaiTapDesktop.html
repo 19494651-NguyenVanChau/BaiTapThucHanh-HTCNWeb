@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8"/>
+<style>
+.parent{
+position:relative;
+width:300px;
+height:400px;
+background-color:yellow;
+border:2px double gray;
+}
+.child_one{
+width:60px;
+height:70px;
+background-color:aqua;
+position:absolute;
+left:100px;
+top:0px;
+border:5px dashed red;
+<!--thay doi cac thuoc tinh kiem tra -->
+
+}
+.child_two{
+width:60px;
+height:70px;
+background-color:darkmagenta;
+right:100px;
+top:300px;
+position:static;
+border:3px dotted green;
+}
+.child_three{
+width:60px;
+height:70px;
+background-color:crimson;
+position:absolute;
+bottom:100px;
+border:2px double blue;
+
+}
+</style>
+</head>
+<body>
+<div class="parent">
+parent
+<div class="child_one">
+1</div>
+<div class="child_two">
+2</div>
+<div class="child_three">
+3</div>
+</div>
+</body>
+</html>
